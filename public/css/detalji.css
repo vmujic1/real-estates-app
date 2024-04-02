@@ -1,0 +1,192 @@
+#osnovno {
+  display: grid;
+  grid-template-rows: 300px 200px;
+  height: 30%;
+}
+
+iframe {
+  width: inherit;
+}
+.slika {
+  width: 100%;
+  height: 80%;
+  margin-bottom: 0px;
+}
+
+#osnovno #podaci {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  height: 200px;
+}
+
+#osnovno #podaci #naziv {
+  display: grid;
+  grid-template-columns: 0.1fr 1fr;
+}
+
+#osnovno #podaci #naziv p {
+  margin-top: 22px;
+}
+
+#osnovno #podaci #kvadratura {
+  display: grid;
+  grid-template-columns: 0.1fr 1fr;
+}
+
+#osnovno #podaci #kvadratura p {
+  margin-top: 22px;
+  margin-left: 5px;
+}
+
+#osnovno #podaci #cijena {
+  display: grid;
+  grid-template-columns: 0.1fr 1fr;
+}
+
+#osnovno #podaci #cijena p {
+  margin-top: 22px;
+}
+
+#detalji {
+  display: grid;
+  grid-template-rows: 0.5fr 1fr 1fr;
+}
+
+#detalji #prvi {
+  display: grid;
+  grid-template-columns: 270px 150px;
+}
+
+#detalji #prvi #grijanje {
+  display: grid;
+  grid-template-columns: 100px 100px;
+}
+#detalji #prvi #grijanje p {
+  margin-top: 22px;
+}
+
+#detalji #prvi #godina {
+  display: grid;
+  grid-template-columns: 140px 80px;
+}
+
+#detalji #prvi #godina p {
+  margin-top: 22px;
+}
+
+#detalji #drugi {
+  display: grid;
+  grid-template-columns: 270px 120px;
+}
+
+#detalji #drugi #lokacija {
+  display: grid;
+  grid-template-columns: 80px 120px;
+}
+
+#detalji #drugi #datum {
+  display: grid;
+  grid-template-columns: 120px 120px;
+}
+
+#detalji #drugi #lokacija p {
+  margin-top: 22px;
+}
+
+#detalji #drugi #datum p {
+  margin-top: 22px;
+}
+
+#upiti {
+  display: grid;
+  grid-template-rows: auto 1fr 1fr; /* Promijenite prvi red na 'auto' */
+  max-width: 100%; /* Dodajte ograničenje maksimalne širine */
+  margin: 0 auto; /* Centrirajte div */
+}
+
+#upiti #prvi-review {
+  display: grid;
+  grid-template-rows: 0.3fr 1fr;
+}
+
+#upiti #drugi-review {
+  display: grid;
+  grid-template-rows: 0.3fr 1fr;
+}
+
+#prvi-review,
+#drugi-review {
+  margin: 20px 0px;
+  border: black solid 1px;
+  padding: 10px;
+}
+
+#okvir {
+  width: 70%;
+
+  margin: 50px auto;
+}
+html {
+  background-color: #fdf1d3;
+}
+header {
+  display: block;
+  height: 60px;
+
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+}
+
+#upiti {
+  width: 100%;
+}
+
+.lista {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lista li {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.user {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.upit {
+  padding: 10px;
+}
+
+#unosUpita {
+  display: none;
+  flex-direction: row; /* Promijenjeno u redak umjesto stupca */
+  align-items: center;
+  justify-content: center; /* Centriranje unutar flex kontejnera */
+  margin-top: 20px;
+}
+
+#upitPolje {
+  width: 60%; /* Prilagodite širinu prema vašim potrebama */
+  padding: 8px;
+  margin-right: 10px;
+}
+
+#potvrdiDugme {
+  width: auto; /* Automatska širina prema sadržaju */
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#potvrdiDugme:hover {
+  background-color: #45a049;
+}

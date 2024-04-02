@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil</title>
+    <link rel="stylesheet" href="../css/profil.css" />
+  </head>
+
+  <body>
+    <header>
+      <iframe src="meni.html" id="meni"></iframe>
+    </header>
+    <div id="okvir">
+      <div id="veliki-screen">
+        <div id="slika">
+          <img
+            src="../img/user_1077114.png"
+            alt="profilna-slika"
+            id="profilna"
+          />
+        </div>
+
+        <div id="unos-forma">
+          <label for="ime" class="labels">Ime:</label>
+          <input type="text" id="ime" class="inputs" placeholder="Unos" />
+
+          <label for="prezime" class="labels">Prezime:</label>
+          <input type="text" id="prezime" class="inputs" placeholder="Unos" />
+
+          <label for="username" class="labels">Username:</label>
+          <input type="text" id="username" class="inputs" placeholder="Unos" />
+
+          <label for="password" class="labels">Password:</label>
+          <input
+            type="password"
+            id="password"
+            class="inputs"
+            placeholder="Unos"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="/scripts/PoziviAjax.js"></script>
+
+    <script src="/scripts/meni.js"></script>
+  </body>
+</html>

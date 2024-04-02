@@ -1,0 +1,45 @@
+HTML VALIDACIJA
+Za validaciju html-a sam koristio validator.w3.org.
+
+
+U slučaju detalji.html datoteke sam imao 4 errora , a to su:
+
+-Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead.
+-The frameborder attribute on the iframe element is obsolete. Use CSS instead.
+-Start tag body seen but an element of the same type was already open.
+-End tag h4 seen, but there were open elements.
+
+U slučaju meni.html datoteke nisam imao nikakvih error-a.
+
+U slučaju nekretnine.html datoteke sam imao 43 errora prije validacije. Prevelik broj error-a mi ne dozvoljava da ih sve pobrojim, ali su svi riješeni bez većih problema. Ponovna validacija prikazuje da dokument nema error-a.
+
+
+
+U slučaju profil.html datoteke sam imao 4 error-a, a to su:
+
+-Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead.
+-The frameborder attribute on the iframe element is obsolete. Use CSS instead.
+-Start tag body seen but an element of the same type was already open.
+- Bad value ../img/user_1077114 (2).png for attribute src on element img: Illegal character in path segment: space is not allowed.
+
+
+
+Što se tiče prijava.html datoteke situacija je bila malo drugačija zato što sam po postavci spirale shvatio da tu ništa ne treba raditi pa nisam imao ništa u toj datoteci, za potrebe testiranja sam dodao standardnu strukturu jednog html dokumenta u prijava.html i u body sam samo dodao meni(čisto da stranica ne bude prazna), radi estetike dodao sam i prijava.css fajl koji također nije postojao. Razumijem da sam sve prethodno navedeno trebao imati i prije, ali sam smatrao da za time nema potrebe, nadam se da to nije veliki problem. Hvala na razumijevanju! 
+
+Nakon validacije svega novododanog nije bilo nikakvih error-a.
+
+
+-------------------------------------------------------------------------------------------------------------------
+CSS VALIDACIJA
+Za validaciju html-a sam koristio jigsaw.w3.org/css-validator.
+
+U slučaju detalji.css datoteke sam imao 2 errora prije validacije, a to su:
+-Property grid-template-row doesn't exist. The closest matching property name is grid-template-rows : 1fr 1fr 1fr
+-Unknown dimension 1.5f
+
+Oba error-a su uspješno rješena.
+Prvi - ovaj dio css-a se uopste nije ni koristio, ali eto cisto radi prakse rada sa validatorom sam ispravio(dodao s na kraj rijeci 'row'). 
+Drugi - Također, sporna mjerna jedinica se nije ni koristila pa sam je obrisao(ispravka bi isla na nacin da se doda 'r', jer je jedinica fr, a ne f.
+
+U slučaju meni.css, nekretnine.css, detalji.css, profil.css(novododano radi prethodno opisanih razloga), prijava.css datoteka nisam imao error-a.
+

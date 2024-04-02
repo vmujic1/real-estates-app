@@ -1,0 +1,32 @@
+#meni ul li {
+  display: inline-block;
+  color: blue;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: #ff9900;
+}
+
+#meni {
+  text-align: center;
+}
+
+html {
+  background-color: #fdf1d3;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: inline-block;
+}

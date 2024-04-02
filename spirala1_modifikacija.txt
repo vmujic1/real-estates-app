@@ -1,0 +1,10 @@
+Za potrebe ovog zadatka dodao sam novi div u kojem se nalazi sav content(id="veliki-screen").
+Taj div putem css-a naredbe @media only screen and (min-width: 500px) koristi samo kada je ekran
+veće rezolucije od 500px. Odnosno taj div postane grid sa dvije kolone.
+U prvoj koloni se nalazi fotografija korisnika(lijevo), u drugoj koloni se nalaze inputi(desno).
+Za potrebe malog ekrana(manji od 500px) ništa nisam dodavao, jer sam taj
+css već imao prije ovog dodatnog zadatka, odnosno takav setup(slika gore, inputi iznad) mi je
+bio za sve sirine ekrana prije ovog zadatka, sada se to samo primjenjuje za ekrane manje od 500px.
+
+Također, nakon modifikacije profil.html i profil.css datoteka za potrebe ovog zadatka, izvršio sam valiaciju.
+Validacija je izvršena putem istih alata kao i prethodnom zadatku, te nije bilo error-a.

@@ -1,0 +1,90 @@
+#okvir {
+  width: 60%;
+  margin: 100px auto;
+  padding: 10px;
+}
+iframe {
+  width: inherit;
+}
+
+#unos-forma {
+  display: grid;
+  grid-template-columns: 100px 300px;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  row-gap: 30px;
+  padding-left: 10%;
+}
+#slika {
+  height: 150px;
+  width: 100px;
+  display: block;
+  margin-left: 10%;
+}
+#profilna {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+.inputs {
+  width: 150px;
+  height: 25px;
+  border: 0px;
+}
+
+html {
+  background-color: #fdf1d3;
+}
+
+.labels {
+  margin-top: 5px;
+}
+
+header {
+  display: block;
+  height: 60px;
+  margin-bottom: 10px;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+}
+
+@media only screen and (min-width: 500px) {
+  #okvir {
+    width: 60%;
+    margin: 10% auto;
+  }
+  header {
+    margin: 0 auto;
+  }
+  #veliki-screen {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;
+  }
+  #unos-forma {
+    display: grid;
+    grid-template-columns: 100px 300px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 30px;
+    margin: 0px auto;
+    padding: 0;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  #slika {
+    width: 50%;
+    padding: 0px;
+    margin-right: 5%;
+    margin-left: 40%;
+  }
+
+  #meni ul {
+    text-align: initial;
+    margin-right: 10%;
+  }
+}

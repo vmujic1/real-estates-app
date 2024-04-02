@@ -1,0 +1,146 @@
+#stan {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+
+  text-align: center;
+}
+
+iframe {
+  width: 100%;
+}
+
+#kuca {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  text-align: center;
+}
+
+#pp {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  text-align: center;
+}
+
+.slika-stan {
+  width: 90%;
+  height: 90%;
+  display: block;
+  margin: auto auto;
+}
+
+.stanovi {
+  display: grid;
+  grid-template-rows: 1.5fr 1fr 0.5fr;
+
+  margin: 0px 0px;
+  margin-left: 20px;
+  background-color: white;
+  max-width: 500px;
+}
+.pp {
+  display: grid;
+  grid-template-rows: 1.5fr 1fr 0.5fr;
+
+  margin: 0px 20px;
+  background-color: green;
+  max-width: 500px;
+}
+
+.kuce {
+  display: grid;
+  grid-template-rows: 1.5fr 1fr 0.5fr;
+
+  margin: 0px 20px;
+  background-color: powderblue;
+  max-width: 500px;
+}
+
+.podaci-nekretnina {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.stan-cijena p {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+#okvir {
+  margin-top: 100px;
+}
+
+.naslovi {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+html {
+  background-color: #fdf1d3;
+}
+
+.detalji-stan,
+.detalji-kuca,
+.detalji-pp {
+  width: 80%;
+  height: 30px;
+  margin: 0 auto;
+  border: 1px solid gray;
+}
+
+header {
+  display: block;
+  height: 60px;
+  margin-bottom: 10px;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+}
+
+/* Stilizacija kontejnera za pretragu */
+#pretraga {
+  margin: 60px auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#pretraga label {
+  margin-right: 10px;
+}
+
+#pretraga input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100px;
+}
+
+#pretraga button {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Dodatak stila za hover efekat na dugmetu */
+#pretraga button:hover {
+  background-color: #555;
+}
+
+.dugmad {
+  width: 80%;
+  margin: 0 auto;
+}

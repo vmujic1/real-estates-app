@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "klikovi": 96,
+        "pretrage": 64
+    },
+    {
+        "id": 2,
+        "klikovi": 28,
+        "pretrage": 74
+    },
+    {
+        "id": 3,
+        "klikovi": 8,
+        "pretrage": 50
+    }
+]
